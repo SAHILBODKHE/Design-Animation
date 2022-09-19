@@ -1,38 +1,277 @@
-.App {
-  text-align: center;
+.Design {
+  animation: dk 10s;
+  transform: translate(-1802px, -118px) rotate(208deg);
+  display: block ruby;
+}
+.Design2 {
+  animation: dk 10s;
+  transform: translate(-2295px, 1874px) rotate(148deg);
+  display: block ruby;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Eye {
+  margin: 100px 50%;
+  transform: rotate(-220deg) translate(-33px, -309px) scale(1.6);
+  width: 50%;
+  height: 200px;
+  width: 200px;
+  /* opacity: 0.2; */
+  /* margin-top: 50%;
+
+  /* margin-top: 50%; */
+  /* justify-content: center;
+  border-radius: 50px 70px;
+  position: relative; */
+  /* animation: dk 20s; */
+}
+.Eyeup {
+  position: inherit;
+  transform: translate(-25%, 49%) rotate(90deg);
+  height: 100px;
+  width: 200px;
+  border-bottom-left-radius: 203px 112px;
+  content: '';
+  background: linear-gradient(
+      45deg,
+      #ff0000 0%,
+      #ff9a00 10%,
+      #d0de21 20%,
+      #4fdc4a 30%,
+      #3fdad8 40%,
+      #2fc9e2 50%,
+      #1c7fee 60%,
+      #5f15f2 70%,
+      #ba0cf8 80%,
+      #fb07d9 90%,
+      #ff0000 100%
+    )
+    repeat 0% 0% / 300% 100%;
+  /* position: absolute;
+  inset: -3px;
+  border-radius: 16px;
+  filter: blur(8px);
+  transform: translateZ(-1px); or z-index */
+  animation: rgb 6s linear infinite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Eyeball {
+  position: inherit;
+  transform: translate(24%, -51%) rotate(-90deg);
+  height: 100px;
+  width: 200px;
+  border-bottom-left-radius: 203px 112px;
+  content: '';
+  background: linear-gradient(
+      45deg,
+      #ff0000 0%,
+      #ff9a00 10%,
+      #d0de21 20%,
+      #4fdc4a 30%,
+      #3fdad8 40%,
+      #2fc9e2 50%,
+      #1c7fee 60%,
+      #5f15f2 70%,
+      #ba0cf8 80%,
+      #fb07d9 90%,
+      #ff0000 100%
+    )
+    repeat 0% 0% / 300% 100%;
+  /* position: absolute;
+  inset: -3px;
+  border-radius: 16px;
+  filter: blur(8px);
+  transform: translateZ(-1px); or z-index */
+  animation: rgb 6s linear infinite;
+}
+.eyecent {
+  aspect-ratio: 1;
+  height: 150px;
+  width: 150px;
+  transform: scale(0.7) translate(5px, -68px);
+}
+@keyframes rgb {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+@keyframes rgbk {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.Eyelow {
+  position: inherit;
+  transform: translate(24%, -151%) rotate(-90deg);
+  height: 100px;
+  width: 200px;
+  border-bottom-left-radius: 203px 112px;
+  /* background-color: red; */
+  content: '';
+  background: linear-gradient(
+      45deg,
+      #ff0000 0%,
+      #fb07d9 10%,
+      #ba0cf8 20%,
+      #5f15f2 30%,
+      #1c7fee 40%,
+      #2fc9e2 50%,
+      #3fdad8 60%,
+      #4fdc4a 70%,
+      #d0de21 80%,
+      #ff9a00 90%,
+      #ff0000 100%
+    )
+    repeat 0% 0% / 300% 100%;
+  /* position: absolute;
+  inset: -3px;
+  border-radius: 16px;
+  filter: blur(8px);
+  transform: translateZ(-1px); or z-index */
+  animation: rgbk 6s linear infinite;
+}
+.EyeThree {
+  position: inherit;
+  transform: translate(-25%, -250%) rotate(90deg);
+  height: 100px;
+  width: 200px;
+  border-bottom-left-radius: 203px 112px;
+  /* background-color: white; */
+  content: '';
+  background: linear-gradient(
+      45deg,
+      #ff0000 0%,
+      #fb07d9 10%,
+      #ba0cf8 20%,
+      #5f15f2 30%,
+      #1c7fee 40%,
+      #2fc9e2 50%,
+      #3fdad8 60%,
+      #4fdc4a 70%,
+      #d0de21 80%,
+      #ff9a00 90%,
+      #ff0000 100%
+    )
+    repeat 0% 0% / 300% 100%;
+  /* position: absolute;
+  inset: -3px;
+  border-radius: 16px;
+  filter: blur(8px);
+  transform: translateZ(-1px); or z-index */
+  animation: rgbk 6s linear infinite;
+}
+.Branch {
+  height: 30px;
+  width: 400px;
+  background-color: white;
+  transform: translate(660px, 0px);
+  border-radius: 10px;
+  animation: dk 10s;
+  color: black;
+  font-weight: 900;
+}
+.stick {
+  animation: ft 10s;
   color: white;
+  font-weight: 900;
+}
+.Arrow {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+
+  border-left: 60px solid #ffa500;
+  transform: translate(387px, -43px);
+}
+.Square {
+  height: 661px;
+  width: 400px;
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+  transform: rotate(90deg) scaleX(2.2);
+  background: linear-gradient(
+      45deg,
+      #ff0000 0%,
+      #d0de21 80%,
+      #ff9a00 90%,
+      #ff0000 100%
+    )
+    repeat 0% 0% / 300% 100%;
+  animation: rgbk 6s linear infinite;
+}
+.circle {
+  height: 300px;
+  width: 350px;
+  border-radius: 174px;
+  background-color: black;
+  transform: translate(57px, -30px) scale(1.1896);
+}
+.circle2 {
+  height: 300px;
+  width: 350px;
+  border-radius: 222px;
+  background-color: black;
+  transform: translate(30px, 196px) scale(1) rotatex(45deg);
+}
+.Arrow2 {
+  width: 0;
+  height: 0;
+  border-top: 120px solid transparent;
+  border-bottom: 274px solid transparent;
+  border-left: 106px solid black;
+  transform: translate(-1px, -352px);
+}
+.Eyes {
+}
+.Second {
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes ft {
+  from {
+    font-weight: 900;
+  }
+  to {
+    font-weight: 100;
+  }
 }
-
-@keyframes App-logo-spin {
+@keyframes dk {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+}
+@keyframes kr {
+  from {
+    transform: scaleY(3.4) scaleX(2) rotate(270deg);
+  }
+  to {
+    transform: scaleY(3.4) scaleX(2) rotate(280deg);
+  }
+  from {
+    transform: scaleY(3.4) scaleX(2) rotate(280deg);
+  }
+  to {
+    transform: scaleY(3.4) scaleX(2) rotate(265deg);
+  }
+}
+.Krish {
+  width: 286px;
+  height: 250px;
+  background-image: url('./../public/index-removebg-preview.png');
+  transform: scaleY(3.4) scaleX(2) rotate(270deg);
+  animation: kr 6s linear infinite;
 }

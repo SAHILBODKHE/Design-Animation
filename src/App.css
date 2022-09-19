@@ -257,6 +257,7 @@
 @keyframes kr {
   from {
     transform: scaleY(3.4) scaleX(2) rotate(270deg);
+    display: block;
   }
   to {
     transform: scaleY(3.4) scaleX(2) rotate(280deg);
@@ -272,6 +273,45 @@
   width: 286px;
   height: 250px;
   background-image: url('./../public/index-removebg-preview.png');
+
   transform: scaleY(3.4) scaleX(2) rotate(270deg);
   animation: kr 6s linear infinite;
+}
+@keyframes sun {
+  from {
+    transform: translate(1253px, 3500px) scale(7);
+  }
+  to {
+    transform: translate(1253px, 317px) scale(7);
+  }
+}
+.Sun {
+  width: 286px;
+  height: 250px;
+  background-image: url('./../public/beautiful-images-of-rising-sun-removebg-preview.png');
+  transform: translate(1253px, 3500px) scale(7);
+
+  animation: sun 6s linear infinite;
+  animation-delay: 10s;
+}
+@keyframes pk {
+  from {
+    transform: translate(906px, 3900px) scale(2);
+  }
+  to {
+    transform: translate(806px, 3900px) scale(2) rotate(-20deg);
+  }
+}
+.Peacock {
+  width: 456px;
+  height: 531px;
+  background-image: url(http://localhost:3000/static/media/png-clipart-peafowl-black-peacock-s-desktop-wallpaper-feather-removebg-preview.9ef8dca29d3966fd24c6.png);
+  transform: translate(906px, 3900px) scale(2);
+  animation: pk 6s ease-in infinite;
+  animation-delay: 10s;
+  /* animation: sun 6s linear;
+  animation-delay: 10s; */
+}
+.Butter {
+  transform: scale(0.7) rotate(-90deg) translate(-220px, -150px);
 }

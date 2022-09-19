@@ -4,6 +4,8 @@ import Design from './Design'
 import Square from './Square'
 import Second from './Second'
 import Design2 from './Design2'
+import Sun from './Sun'
+import Peacock from './Peacock'
 function App() {
   return (
     <div className="App">
@@ -11,6 +13,8 @@ function App() {
       {/* <Design />
       <Design />
       <Design /> */}
+      <Peacock />
+      <Sun />
       <Design2 />
       <Design2 />
       <Design2 />
